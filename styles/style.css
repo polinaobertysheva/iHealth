@@ -1,0 +1,199 @@
+body{
+  background-color: #F2F2F2;
+}
+
+.container{
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+section{
+  overflow: hidden;
+  background-color: #FFFFFF;
+  box-shadow: 1px 1px 4px #888888;
+  margin: 30px auto;
+  padding: 30px;
+
+}
+
+.questions{
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.question{
+  margin-bottom:50px;
+}
+
+input[type="radio"]{
+  display: inline;
+}
+
+input[type="text"]{
+  height: 44px;
+  margin-bottom: 10px;
+  margin-right:20px;
+  border:none;
+  border-bottom: 1px solid #979797;
+}
+
+input[type="text"]:focus{
+  border:none;
+  border-bottom: 1px solid #000000;
+  outline:none;
+}
+
+textarea{
+  display:block;
+  min-width:285px;
+  width:70%;
+  max-width:285px;
+  height:100px;
+  outline:none;
+}
+
+label{
+  font-weight:normal;
+}
+
+.label_TextQuestion{
+  font-weight:bold;
+}
+
+.label_quiz{
+  font-weight:bold;
+  font-size:24px;
+  min-width:400px;
+  width:70%;
+  max-width:670px;
+  display: inline-block;
+}
+
+.input_question{
+  min-width:285px;
+  width:70%;
+  max-width:356px;
+  font-size: 18px;
+  font-weight:bold;
+}
+
+.input_option{
+  margin-left:10px;
+  min-width:200px;
+  width:40%;
+  max-width:400px;
+  font-size: 16px;
+}
+.option{
+  margin: 10px 0;
+}
+.input_quiz{
+  min-width:400px;
+  width:70%;
+  max-width:670px;
+  font-size:24px;
+  font-weight:bold;
+
+}
+.cta{
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+  border: none;
+  min-width:70px;
+  width:30%;
+  max-width:125px;
+}
+
+.cta:focus{
+  outline:none;
+}
+
+.cta1{
+  background-color: #33ACD0;
+  color:#FFFFFF;
+
+}
+
+.cta2{
+  border: 3px solid #33ACD0;
+  background-color: #FFFFFF;
+  color: #33ACD0;
+}
+
+#addQuestion{
+  border-radius:30px;
+  min-width:50px;
+  width:50px;
+  max-width:30px;
+  font-size:18px;
+  box-shadow: 0px 1px 3px rgba(68, 68, 68, 0.3);;
+}
+
+.cta:hover{
+  opacity:0.9;
+}
+
+#validateQuiz{
+  float: right;
+}
+
+#addQuestion{
+  float:right;
+}
+
+#nameQuiz{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#mainImg{
+  float: left;
+}
+
+#mainPrez{
+  margin-left: 30px;
+  display: inline;
+  float: right;
+}
+
+select{
+  background-color: #fff;
+  color: #2889A6;
+  border: none;
+  padding-left: 10px;
+  padding-bottom: 9px;
+  text-decoration:underline;
+  display: inline-block;
+  vertical-align:bottom;
+  min-width:155px;
+  width:30%;
+  max-width:155px;
+  font-weight:bold;
+  -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+}
+
+/*Remove outline on focus */
+select:focus{
+    outline:none;
+}
+
+select:focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
+
+#selectTypeQuestion{
+  float: right;
+}
+
+#nameQuestion{
+  display: block;
+  margin-left: 18px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
